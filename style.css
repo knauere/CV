@@ -1,0 +1,35 @@
+/* This is a stylesheet for CV */
+
+h1 {
+    font-family: "Raleway Light", Serif, monospace;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Raleway SemiBold", Serif, monospace;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "Raleway Light", Serif, monospace;
+    font-size: 1rem;
+}
+
+h4 {
+    font-family: "Montserrat Regular", Serif, monospace;
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: normal;
+    font-variant-caps: all-small-caps;
+}
+
+p {
+    font-family: "Raleway", Serif, monospace;
+    font-size: 1rem;
+    text-align: center;
+}
+a {
+    font-family: "Raleway", Serif, monospace;
+    font-size: 0.9rem;
+    color: royalblue;
+}
