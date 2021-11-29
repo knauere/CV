@@ -3,24 +3,30 @@
 h1 {
     font-family: "Raleway Light", Serif, monospace;
     font-size: 3rem;
+    color: white;
+    /* fix align? */
+    text-align: end;
+
 }
 
+/* Category */
 h2 {
     font-family: "Raleway SemiBold", Serif, monospace;
     font-size: 1.5rem;
 }
-
+/* Sub text */
 h3 {
     font-family: "Raleway Light", Serif, monospace;
     font-size: 1rem;
 }
-
+/* Flavor text */
 h4 {
     font-family: "Montserrat Regular", Serif, monospace;
     font-size: 0.8rem;
     color: grey;
     font-weight: normal;
     font-variant-caps: all-small-caps;
+    line-height: 0;
 }
 
 p {
@@ -32,4 +38,29 @@ a {
     font-family: "Raleway", Serif, monospace;
     font-size: 0.9rem;
     color: royalblue;
+    line-height: 0;
+}
+
+div {
+    background: black;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 0;
+
+}
+div+div {
+    background: white;
+    position: relative;
+    padding: 50px;
+    border: white;
+    border-radius: 30px;
+
+}
+
+body {
+    /* better margin top remove? */
+    margin: 100px;
+    margin-top: 0;
+    border-radius: 50%;
+    background-image: linear-gradient(0deg, mediumpurple, cornflowerblue);
 }
