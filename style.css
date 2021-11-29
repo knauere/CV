@@ -28,7 +28,12 @@ h4 {
     font-variant-caps: all-small-caps;
     line-height: 0;
 }
-
+    /* Work experience text */
+ul {
+    font-family: "Raleway Medium", Serif, monospace;
+    font-size: 0.8rem;
+    padding: 0;
+}
 p {
     font-family: "Raleway", Serif, monospace;
     font-size: 1rem;
@@ -44,14 +49,16 @@ a {
 div {
     background: black;
     position: relative;
-    border-radius: 30px;
+    border-radius: 2px;
     margin-bottom: 0;
+    padding-bottom: 0 px;
 
 }
 div+div {
     background: white;
     position: relative;
     padding: 50px;
+    margin-top: 0;
     border: white;
     border-radius: 30px;
 
